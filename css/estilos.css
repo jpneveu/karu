@@ -1,4 +1,3 @@
-/* desactivé estilos por posibles conflictos con Bootstrap
 
 *{
     margin: 0;
@@ -12,53 +11,27 @@ html{
 }
 
 
-/* TAMAÑO ESCRITORIO  
+/* TAMAÑO ESCRITORIO  */
 
-.contenedor{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 0.4fr 1fr 0.4fr;
-    grid-template-areas: 
-    "header header"
-    "main main"
-    "footer footer";
-}
 
-.main{
+.contenidoPrincipal{
     background-color: #3cb37286;
-    grid-area: main;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 35px;
 }
 
-.main h1{
+.titulo{
     font-size: 2rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
+    
 }
 
-.main h2{
+.subtitulo{
     font-size: 1.8rem;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 20px;
 }
 
-.main p{
-    font-size: 1.5rem;
+.parrafo{
+    font-size: 1.2rem;
     padding: 20px;
 }
-
-.main img{
-    padding-right: 15px;
-    margin:25px;
-    width: 90%;
-    align-self:start;
-}
-
 
 .main form {
     display: flex;
@@ -87,25 +60,21 @@ html{
   }
 
 
-.footer{
+.piePagina{
     background-color: #3CB371 ;
-    position: relative;
-    grid-area: footer;
-    align-items: start;
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    padding-right: 5%;
+    padding:20px;
+   
 }
 
-.footer li{
+.piePagina li{
     list-style-type: none;
-    display: inline-block;
-    padding: 20px;
-    
+    display: inline-block;  
 }
 
-.footer li a{
+.piePagina li a{
     text-decoration: none;
     color: #ffffff;
 }
@@ -123,6 +92,7 @@ html{
 }
 
 
+/* TAMAÑO TABLET
 @media screen and (max-width:768px) {
 
     .contenedor{
@@ -153,7 +123,7 @@ html{
     }
 
 }
-
+ 
 
 @media screen and (max-width: 480px){
     .contenedor{
