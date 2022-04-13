@@ -19,6 +19,11 @@ html{
     padding: 35px;
 }
 
+.contenidoPrincipal2{
+    background-color: #3cb37286;
+    padding: 35px;
+}
+
 .titulo{
     font-size: 2rem;
     
@@ -65,7 +70,7 @@ html{
     display: flex;
     justify-content:center;
     align-items: center;
-    padding:20px;
+    padding:15px;
    
 }
 
@@ -90,69 +95,3 @@ html{
     filter: none;
     transform: scale(1.1);
 }
-
-
-/* TAMAÑO TABLET
-@media screen and (max-width:768px) {
-
-    .contenedor{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "footer footer"
-    }
-
-    .header{
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .main{
-        flex-wrap: wrap;
-
-    }
-
-    .main img {
-        max-width:700px;
-    }
-    .footer{
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding-bottom: 5%;
-    }
-
-}
- 
-
-@media screen and (max-width: 480px){
-    .contenedor{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "header"
-        "main"
-        "footer";
-    }
-
-    .header{
-
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .main{
-
-        flex-wrap: wrap;
-    }
-    .main img {
-        max-width:420px;
-    }
-    .footer{
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding-bottom: 5%;
-    }
-
-}
-
-*/
